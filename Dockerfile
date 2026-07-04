@@ -3,10 +3,10 @@ FROM node:18-alpine
 
 # Setting up the environment variables needed:
 ENV DOMAIN="http://localhost:3000" \
-PORT=3000 \
+PORT=3000 \wq!
 STATIC_DIR="./client" \
-PUBLISHABLE_KEY="  " \
-SECRET_KEY=" "
+PUBLISHABLE_KEY="" \
+SECRET_KEY=""
 
 WORKDIR /usr/src/app
 
