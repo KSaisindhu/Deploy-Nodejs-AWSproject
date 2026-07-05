@@ -5,8 +5,13 @@ FROM node:18-alpine
 ENV DOMAIN="http://localhost:3000" \
 PORT=3000 \wq!
 STATIC_DIR="./client" \
+<<<<<<< HEAD
 PUBLISHABLE_KEY="" \
 SECRET_KEY=""
+=======
+PUBLISHABLE_KEY="  " \
+SECRET_KEY=" "
+>>>>>>> cab024a (Added client folder)
 
 WORKDIR /usr/src/app
 
